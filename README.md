@@ -1,24 +1,52 @@
-# app
+# TotalMiners Admin Panel 📊
 
-## Project setup
-```
+Фронтенд-часть панели управления для майнинг-отеля **totalminers.io**. Приложение предназначено для администраторов платформы: управления пользователями, воркерами, биллингом и интеграциями.
+
+## 🛠️ Технологический стек
+* **Framework:** Vue.js (Vue CLI)
+* **Localization:** Babel / Vue i18n
+* **Web Server:** Nginx (для контейнеризации и раздачи статики)
+* **Containerization:** Docker
+
+## 🚀 Разработка и локальный запуск
+
+Для работы проекта локально вам понадобится установленная среда [Node.js](https://nodejs.org).
+
+### 1. Установка зависимостей
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+### 2. Запуск сервера для разработки (с hot-reload)
+```bash
 npm run serve
 ```
+Приложение будет доступно локально, обычно по адресу `http://localhost:8080/`.
 
-### Compiles and minifies for production
-```
+### 3. Компиляция и минификация для продакшена
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
+### 4. Проверка и исправление ошибок в коде (Линтинг)
+```bash
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 🐳 Развертывание в Production (Docker & Nginx)
+
+Проект полностью готов к контейнеризации. Для сборки продакшен-версии используется многоэтапный `Dockerfile`, который собирает статические файлы Vue.js и отдает их через оптимизированный веб-сервер `Nginx`.
+
+### Сборка и запуск Docker-контейнера:
+```bash
+# Сборка образа
+docker build -t admin-mining .
+
+# Запуск контейнера на 80-м порту
+docker run -d -p 80:80 --name totalminers-admin admin-mining
+```
+
+## 🗂️ Ключевые файлы конфигурации
+* `nginx.conf` — настройки проксирования и раздачи собранного Vue-приложения.
+* `vue.config.js` / `jsconfig.json` — конфигурация сборщика Vue CLI и путей.
+* `data.json` — статические или демонстрационные данные для локальной работы панели.
