@@ -2,6 +2,18 @@
 
 The frontend part of the control panel for the **totalminers.io** mining hotel. This application is designed specifically for platform administrators to manage users, workers, billing, and integrations.
 
+<p align="center">
+  <img src="./docs/sh.png" alt="Meract Platform Preview" width="100%">
+</p>
+
+<p align="center">
+  <img src="./docs/sh1.png" alt="Meract Platform Preview" width="100%">
+</p>
+
+<p align="center">
+  <img src="./docs/sh2.png" alt="Meract Platform Preview" width="100%">
+</p>
+
 ---
 
 ## 🛠️ Tech Stack
