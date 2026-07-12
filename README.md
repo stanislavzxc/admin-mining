@@ -1,5 +1,12 @@
 # TotalMiners Admin Panel 📊
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js">
+  <img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=vue.js&logoColor=black" alt="Pinia">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+</p>
+
+
 The frontend part of the control panel for the **totalminers.io** mining hotel. This application is designed specifically for platform administrators to manage users, workers, billing, and integrations.
 
 <p align="center">
