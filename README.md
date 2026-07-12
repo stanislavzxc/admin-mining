@@ -6,13 +6,7 @@ The frontend part of the control panel for the **totalminers.io** mining hotel. 
   <img src="./docs/sh.png" alt="Meract Platform Preview" width="100%">
 </p>
 
-<p align="center">
-  <img src="./docs/sh1.png" alt="Meract Platform Preview" width="100%">
-</p>
 
-<p align="center">
-  <img src="./docs/sh2.png" alt="Meract Platform Preview" width="100%">
-</p>
 
 ---
 
@@ -22,6 +16,14 @@ The frontend part of the control panel for the **totalminers.io** mining hotel. 
 * **Containerization:** `Docker`
 
 ---
+
+<p align="center">
+  <img src="./docs/sh1.png" alt="Meract Platform Preview" width="100%">
+</p>
+
+<p align="center">
+  <img src="./docs/sh2.png" alt="Meract Platform Preview" width="100%">
+</p>
 
 ## 🚀 Local Development Setup
 
