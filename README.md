@@ -1,5 +1,9 @@
 # TotalMiners Admin Panel 📊
 
+
+<p align="center">
+totalminers.io
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js">
   <img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=vue.js&logoColor=black" alt="Pinia">
